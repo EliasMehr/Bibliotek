@@ -5,13 +5,14 @@ public class Book {
      * Can add more properties here
      */
 
+
     protected boolean isRented = false;
     protected String author;
     protected String title;
     protected String pages;
     protected String isbn;
 
-    public Book() {}
+    protected Book() {}
 
     public Book(String author, String title, String pages, String isbn) {
         this.author = author;
@@ -24,6 +25,6 @@ public class Book {
 
     @Override
     public String toString() {
-        return "\nAuthor: " + author + "\nTitle: " + title + "\nPages: " + pages + "\nISBN: " + isbn;
+        return "LIBRARY STOCKTAKE\n" + "\nAuthor: " + author + "\nTitle: " + title + "\nPages: " + pages + "\nISBN: " + isbn;
     }
 }

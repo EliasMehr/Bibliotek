@@ -1,6 +1,6 @@
 public class BookLoan extends Book {
-    Book book;
-    Person person;
+    protected Book book;
+    protected Person person;
 
     public BookLoan(Person person, Book book) {
         this.book = book;
@@ -9,6 +9,6 @@ public class BookLoan extends Book {
 
     @Override
     public String toString() {
-        return this.book + "\n\nThis book is rented by: " + this.person.person_Name;
+        return this.book + "\n\nThis book is rented by: " + this.person.person_Name + "\n";
     }
 }

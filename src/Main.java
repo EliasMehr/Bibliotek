@@ -36,7 +36,7 @@ public class Main {
         // Show rented books & show stocktake of the library
         library.showRentedBooks();
 
-        //library.showBooks();
+        library.showBooks();
 
     }
 }
